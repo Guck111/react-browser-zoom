@@ -1,6 +1,6 @@
 {
   "name": "react-browser-zoom",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A React hook to monitor browser zoom level via devicePixelRatio.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -41,7 +41,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Guck111/react-browser-zoom.git"
+    "url": "git+https://github.com/Guck111/react-browser-zoom.git"
   },
   "homepage": "https://github.com/Guck111/react-browser-zoom#readme"
 }
