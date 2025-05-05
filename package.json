@@ -1,10 +1,10 @@
 {
   "name": "react-browser-zoom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A React hook to monitor browser zoom level via devicePixelRatio.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
