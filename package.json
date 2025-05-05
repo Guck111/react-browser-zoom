@@ -1,0 +1,47 @@
+{
+  "name": "react-browser-zoom",
+  "version": "0.1.0",
+  "description": "A React hook to monitor browser zoom level via devicePixelRatio.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --sourcemap --clean",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --sourcemap --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "zoom",
+    "browser",
+    "devicePixelRatio",
+    "scale",
+    "dpr"
+  ],
+  "author": "Arseni Shmialiou <7080446@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guck111/react-browser-zoom.git"
+  },
+  "homepage": "https://github.com/Guck111/react-browser-zoom#readme"
+}
